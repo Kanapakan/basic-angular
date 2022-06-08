@@ -8,5 +8,6 @@ if (environment.production) {
   enableProdMode();
 }
 
+//bootstrap is gluing everything together (in AppModule)
 platformBrowserDynamic().bootstrapModule(AppModule)
   .catch(err => console.error(err));
